@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Dados</title>
+</head>
+<body>
+    <h1>Formulário de Dados</h1>
+    <form action="exe04.php" method="post">
+        <p>Nome: <input type="text" name="nome" required></p>
+        <p>Email: <input type="email" name="email" required></p>
+        <p>Data de Nascimento: <input type="date" name="nascimento" required></p>
+        <p>Bandeira do Cartão:
+            <select name="bandeira" required>
+                <option value="Visa">Visa</option>
+                <option value="MasterCard">MasterCard</option>
+                <option value="American Express">American Express</option>
+                <option value="Diners Club">Diners Club</option>
+            </select>
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
