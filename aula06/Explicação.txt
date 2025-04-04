@@ -1,0 +1,35 @@
+1° Explicação:
+
+Cria uma tabela HTML com 8 linhas e 4 colunas fixas
+
+Usa um loop for para gerar as linhas
+
+Alterna as classes CSS (cinza e branco) para as linhas pares e ímpares
+
+O operador ternário (condição) ? valor1 : valor2 decide qual classe usar
+
+O CSS básico estiliza a tabela com bordas e padding
+
+
+2° Explicação:
+
+Um formulário HTML coleta o número de linhas (1-10) e colunas (1-5).
+
+PHP verifica os valores enviados ($_POST) e usa dois loops for para gerar a tabela:
+
+Loop externo cria as linhas.
+
+Loop interno preenche as colunas de cada linha.
+
+Exemplo: Se o usuário digitar 3 linhas e 2 colunas, gera uma tabela 3x2 com células identificadas (ex: "Linha 1, Coluna 1").
+
+
+3° Explicação:
+
+Array $produtos guarda dados de cada produto (Nome, Preço, Categoria).
+
+Um loop foreach percorre o array e gera uma linha na tabela para cada produto.
+
+Cada célula acessa os dados do produto pelos índices ($produto[0], $produto[1], etc.).
+
+Exemplo: Exibe "Televisão | R$ 1.200,00 | Eletrônico" em uma linha.
