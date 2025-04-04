@@ -1,0 +1,75 @@
+/* Fundo de palco */
+body {
+    font-family: 'Courier New', monospace;
+    background-color: #0d0d0d;
+    background-image: url('../img/lobao.png'); /* Se quiser um wallpaper */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+/* Container principal */
+.login-container {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 30px red;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Título estiloso */
+h1 {
+    color: red;
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+/* Grupos de formulário */
+.form-group {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: red;
+    font-weight: bold;
+}
+
+/* Campos de entrada */
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid red;
+    background-color: #1a1a1a;
+    color: #f1f1f1;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Botão estiloso */
+.submit-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.submit-btn:hover {
+    background-color: red;
+}
