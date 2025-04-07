@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(32, 32, 32);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+form {
+    font-size: 20px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.resultado {
+    color: lightgreen;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.erro {
+    color: red;
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
